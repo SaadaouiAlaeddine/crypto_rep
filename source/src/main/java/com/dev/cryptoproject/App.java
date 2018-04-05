@@ -47,6 +47,5 @@ public class App
           System.out.println( "Usage: docker run -rm cryptoapp [crypto-currency name]" );
         else
             processCryptoCurrencyName(args[0]);
-
     }
 }
