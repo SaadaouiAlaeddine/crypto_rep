@@ -2,8 +2,8 @@ package com.dev.cryptoproject;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
-
 import java.io.Serializable;
+
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class CryptoCurrency implements Serializable {
 
@@ -12,7 +12,6 @@ public class CryptoCurrency implements Serializable {
     String price_usd;
     @JsonProperty("market_cap_usd")
     String market_cap_usd;
-
 
     @Override
     public String toString() {
@@ -38,8 +37,4 @@ public class CryptoCurrency implements Serializable {
     public void setMarket_cap_usd(String market_cap_usd) {
         this.market_cap_usd = market_cap_usd;
     }
-
-
-
-
 }
