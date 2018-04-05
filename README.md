@@ -6,7 +6,7 @@ This application uses CoinMarketCap API to display of the price (USD) and market
 1. To build the docker image:
    - Clone or download this repository.
    - Use a terminal and make the target folder your current working directory.
-   - Execute the following command to create a docker image called cryptoapp (don't forget to add the dot):
+   - Execute the following command to create a docker image called cryptoapp (don't forget to add the dot at the end):
    ``` bash
    docker build -t cryptoapp .
    ```
