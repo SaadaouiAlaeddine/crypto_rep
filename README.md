@@ -15,8 +15,8 @@ This application uses CoinMarketCap API to display of the price (USD) and market
    ```
 3. Examples of running the application
 ``` bash
-   docker run --rm cryptoapp bitcoin .
+   docker run --rm cryptoapp bitcoin
 ```
 ``` bash
-   docker run --rm cryptoapp ripple .
+   docker run --rm cryptoapp ripple
 ```
